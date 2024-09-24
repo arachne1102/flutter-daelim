@@ -14,8 +14,11 @@ dependencies:
   cupertino_icons: ^1.0.8
 
   easy_extension:
-  git:
-    url: https://github.com/scadasystems/Easy-Extension.git
+    git:
+      url: https://github.com/scadasystems/Easy-Extension.git
+  flex_color_scheme: ^7.3.1
+  http: ^1.2.2
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
