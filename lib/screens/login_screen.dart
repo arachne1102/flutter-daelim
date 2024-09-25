@@ -59,13 +59,13 @@ class _LoginScreenState extends State<LoginScreen> {
   // 타이틀 텍스트 위젯
   List<Widget> _buildTitleText() => [
         Text(
-          "Hello zelda..",
-          style: GoogleFonts.handjet(fontSize: 28),
+          "Hello Again!",
+          style: GoogleFonts.poppins(fontSize: 28),
         ),
         10.heightBox,
         Text(
-          "Get your hands on the \n legendary sword!",
-          style: GoogleFonts.handjet(fontSize: 20),
+          "wellcome back you're \n been missed!",
+          style: GoogleFonts.poppins(fontSize: 20),
           textAlign: TextAlign.center,
         ),
       ];
@@ -89,7 +89,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return TextField(
       controller: controller,
       decoration: InputDecoration(
-          fillColor: Color(0xFF63947D),
+          fillColor: Color.fromARGB(255, 255, 255, 255),
           // border: ,
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(8),
@@ -112,7 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xffd0f8b7),
+      backgroundColor: const Color.fromARGB(255, 221, 221, 221),
       body: SafeArea(
           child: SingleChildScrollView(
         padding: EdgeInsets.symmetric(
@@ -139,7 +139,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: ElevatedButton(
                 onPressed: _onSignIn,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xff31604a),
+                  backgroundColor: const Color.fromARGB(255, 173, 100, 40),
                   // textStyle: GoogleFonts.poppins(color: colors),
                 ),
                 child: Text(
